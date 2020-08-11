@@ -6,3 +6,9 @@
 - Initial commit (with a readme, or a scaffold) on master
 - Add remote (repo on github, link the two)
 - Push to master (one time)
+
+## Make a development branch
+
+- `git checkout -b development`
+- `git push origin development`
+- go to github, make development your `default` branch
