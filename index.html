@@ -6,6 +6,37 @@
     <title>Document</title>
   </head>
   <body>
-    Hello
+    <h2>How to git "gud"</h2>
+
+    <h2>Setup</h2>
+
+    <li>`git init`</li>
+    <li>Initial commit (with a readme, or a scaffold) on master</li>
+    <li>Add remote (repo on github, link the two)</li>
+    <li>Push to master (one time)</li>
+
+    <h2>Make a development branch</h2>
+
+    <li>`git checkout -b development`</li>
+    <li>`git push origin development`</li>
+    <li>go to github, make development your `default` branch</li>
+
+    <h2>How to use a feature branch</h2>
+
+    <li>Start from development</li>
+    <li>`git checkout development`</li>
+    <li>
+      (optional) pull updates from origin (maybe your colleagues did some work)
+    </li>
+    <li>`git pull origin development`</li>
+    <li>Make a new feature branch</li>
+    <li>`git checkout -b branch-name`</li>
+    <li>Code / Hack / Style etc..</li>
+    <li>Commit your work</li>
+    <li>Push to github</li>
+    <li>`git push origin branch-name`</li>
+    <li>Make a pullrequest (with a summary)</li>
+    <li>Ask review</li>
+    <li>Merge the pullrequest</li>
   </body>
 </html>
